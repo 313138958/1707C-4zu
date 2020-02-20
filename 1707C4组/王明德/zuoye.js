@@ -32,6 +32,11 @@
 // let ssr = Object.assign({},ssw)
 // console.log(ssr,ssw)
 
+//提取Math对象中的log, sin, cos属性
+
+// let Math ={ log:'ss',sin:'fff',cos:'wwww' }
+// let { log, sin , cos}  = Math 
+// console.log(log,sin,cos)
 
 // 举例克隆数组 :consr arr1=[1,2,3]
 // const arr2 = [...arr1];
